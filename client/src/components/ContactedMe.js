@@ -2,14 +2,14 @@ import React from 'react'
 import Jumbotron from 'react-bootstrap/Jumbotron'
 import Container from 'react-bootstrap/Container'
 
-class Home extends React.Component {
+class ContactedMe extends React.Component {
   render() {
     return (
       <Jumbotron fluid>
         <Container>
-          <h1>Home Page</h1>
+          <h1>I will be able to view who shot me a message here</h1>
           <p>
-            We are gonna land right here.
+            Build out the models and controllers
           </p>
         </Container>
       </Jumbotron>
@@ -17,4 +17,4 @@ class Home extends React.Component {
   }
 }
 
-export default Home
+export default ContactedMe

@@ -21,7 +21,7 @@ class Login extends React.Component {
     const { email, password, } = this.state;
 
     return (
-      <Container basic>
+      <Container >
         <h1>Login</h1>
         <Form onSubmit={this.handleSubmit}>
           <Form.Control
@@ -42,7 +42,7 @@ class Login extends React.Component {
             type='password'
             onChange={this.handleChange}
           />
-          <Button primary type='submit'>Submit</Button>
+          <Button variant="primary" type='submit'>Submit</Button>
         </Form>
       </Container>
     )

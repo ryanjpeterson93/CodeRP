@@ -7,7 +7,11 @@ import Login from "./components/Login";
 import Register from "./components/Register";
 import Menu from "./components/Menu"
 import FetchUser from "./components/FetchUser"
-// import ProtectedRoute from './components/ProtectedRoute';
+import AboutMe from './components/AboutMe';
+import Projects from './components/Projects';
+import Contact from './components/Contact';
+import ContactedMe from './components/ContactedMe';
+import ProtectedRoute from './components/ProtectedRoute';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -15,12 +19,15 @@ const App = () => (
   <>
     <Menu />
     <FetchUser>
-      <Container>
+      <Container fluid>
         <Switch>
-          {/* <ProtectedRoute exact path="" component={} /> */}
+          <ProtectedRoute exact path="/contacted-me" component={ContactedMe} />
           <Route exact path="/" component={Home} />
           <Route exact path="/login" component={Login} />
           <Route exact path="/register" component={Register} />
+          <Route exact path="/about" component={AboutMe} />
+          <Route exact path="/projects" component={Projects} />
+          <Route exact path="/contact" component={Contact} />
           <Route component={NoMatch} />
         </Switch>
       </Container>
