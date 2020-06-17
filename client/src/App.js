@@ -1,27 +1,31 @@
 import React from 'react';
-import logo from './logo.svg';
+import { Switch, Route } from "react-router-dom";
+import Container from "react-bootstrap/Container"
+import Home from "./components/Home";
+import NoMatch from "./components/NoMatch";
+import Login from "./components/Login";
+import Register from "./components/Register";
+import Menu from "./components/Menu"
+import FetchUser from "./components/FetchUser"
+// import ProtectedRoute from './components/ProtectedRoute';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const App = () => (
+  <>
+    <Menu />
+    <FetchUser>
+      <Container>
+        <Switch>
+          {/* <ProtectedRoute exact path="" component={} /> */}
+          <Route exact path="/" component={Home} />
+          <Route exact path="/login" component={Login} />
+          <Route exact path="/register" component={Register} />
+          <Route component={NoMatch} />
+        </Switch>
+      </Container>
+    </FetchUser>
+  </>
+)
 
 export default App;

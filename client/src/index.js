@@ -1,14 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import { BrowserRouter, } from 'react-router-dom';
+import { AuthProvider, } from "./providers/AuthProvider"
+import { initMiddleware, } from 'devise-axios';
+import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+initMiddleware();
+
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <AuthProvider>
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
+  </AuthProvider>,
   document.getElementById('root')
 );
 
