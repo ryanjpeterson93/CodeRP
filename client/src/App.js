@@ -12,8 +12,7 @@ import Projects from './components/Projects';
 import Contact from './components/Contact';
 import ContactedMe from './components/ContactedMe';
 import ProtectedRoute from './components/ProtectedRoute';
-import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import ContactForm from './components/ContactForm';
 
 const App = () => (
   <>
@@ -28,6 +27,7 @@ const App = () => (
           <Route exact path="/about" component={AboutMe} />
           <Route exact path="/projects" component={Projects} />
           <Route exact path="/contact" component={Contact} />
+          <Route exact path="/contact/form" component={ContactForm} />
           <Route component={NoMatch} />
         </Switch>
       </Container>
