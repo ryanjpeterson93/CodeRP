@@ -11,21 +11,6 @@ class Api::ContactsController < ApplicationController
 
   def create
     contact = Contact.new(contact_params)
-
-    file = params[:file]
-    
-    if file
-      begin
-        ext = File.extname(file.tempfile)
-        cloud_image = Cloudinary::Uploader.upload(file, public_id: file.original_filename, secure: true)
-
-        contact.photo = cloud_image["secure_url"]
-        
-      rescue => e
-        render json: { errors: e }, status: 422
-        return
-      end
-    end
     if contact.save
       render json: contact
     else
