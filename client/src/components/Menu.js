@@ -6,7 +6,7 @@ import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
 class Menu extends React.Component {
 
   rightNavItems = () => {
-    const { auth: { user, handleLogout, }} = this.props;
+    const { auth: { user, handleLogout, } } = this.props;
 
     if (user) {
       return (
@@ -30,7 +30,13 @@ class Menu extends React.Component {
     return (
       <div>
         <Navbar collapseOnSelect expand="md" bg="dark" variant="dark">
-          <Navbar.Brand href="/">Home</Navbar.Brand>
+          <Navbar.Brand href="/">
+            <img
+              src='/coderp_trans.png'
+              width="50px"
+              alt="Code RP"
+            />
+          </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="mr-auto">
