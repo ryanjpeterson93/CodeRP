@@ -1,6 +1,14 @@
+.formHeader {
+  text-align: center;
+}
+
 .contactForm {
   width: 90%;
   margin: 0 auto;
+  background-color: whitesmoke;
+  padding: 3vh;
+  max-width: 500px;
+  margin-top: 5%;
 }
 
 .homeDiv1 {
@@ -17,4 +25,13 @@
 
 .homeDiv4 {
   height: 30vh;
+}
+
+.projectCard {
+  margin: 1vw 0;
+  text-align: center;
+}
+
+.projButton {
+  margin: 0 2%;
 }

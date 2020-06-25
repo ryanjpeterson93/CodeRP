@@ -56,7 +56,7 @@ const Home = () => (
       <h1> Home Page </h1>
       <p> Take a look at what I am about </p>
     </div>
-    
+
     <div className="homeDiv2">
       <h4> About Me (in a nut shell) </h4>
       <p> Background Information </p>

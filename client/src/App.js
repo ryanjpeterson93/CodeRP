@@ -1,6 +1,6 @@
 import React from 'react';
 import { Switch, Route } from "react-router-dom";
-import Container from "react-bootstrap/Container"
+// import Container from "react-bootstrap/Container"
 import Home from "./components/Home";
 import NoMatch from "./components/NoMatch";
 import Login from "./components/Login";
@@ -14,11 +14,13 @@ import ContactedMe from './components/ContactedMe';
 import ProtectedRoute from './components/ProtectedRoute';
 import ContactForm from './components/ContactForm';
 
+document.body.style.backgroundColor = "#dbdbdb"
+
 const App = () => (
   <>
     <Menu />
     <FetchUser>
-      <Container fluid>
+      {/* <Container fluid> */}
         <Switch>
           <ProtectedRoute exact path="/contacted-me" component={ContactedMe} />
           <Route exact path="/" component={Home} />
@@ -30,7 +32,7 @@ const App = () => (
           <Route exact path="/contact/form" component={ContactForm} />
           <Route component={NoMatch} />
         </Switch>
-      </Container>
+      {/* </Container> */}
     </FetchUser>
   </>
 )

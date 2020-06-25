@@ -52,7 +52,10 @@ class ContactForm extends React.Component {
       name, } = this.state;
     return (
       <>
+      <div className="formHeader">
         <h1>Contact Form</h1>
+        <p>Send me over a form, I will get back to you ASAP</p>
+      </div>
         <div className="contactForm">
           <Form onSubmit={this.handleSubmit} >
             <Form.Row>
