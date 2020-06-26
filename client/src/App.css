@@ -11,19 +11,19 @@
   margin-top: 5%;
 }
 
-.homeDiv1 {
+.aboutDiv1 {
   height: 30vh;
 }
 
-.homeDiv2 {
+.aboutDiv2 {
   height: 30vh;
 }
 
-.homeDiv3 {
+.aboutDiv3 {
   height: 30vh;
 }
 
-.homeDiv4 {
+.aboutDiv4 {
   height: 30vh;
 }
 
@@ -34,4 +34,8 @@
 
 .projButton {
   margin: 0 2%;
+}
+
+.homeHeader{
+  
 }

@@ -26,7 +26,7 @@ const Projects = () => (
                 (Desktop Only) Description of the project.
               </Card.Text>
               <Button className="projButton" variant="outline-dark" href="https://home-inventory-2020.herokuapp.com/" target="_blank">Visit Site</Button>
-              <Button className="projButton" variant="outline-dark" href="#">Github</Button>
+              <Button className="projButton" variant="outline-dark" href="https://github.com/ryanjpeterson93/My-Home-Inventory">Github</Button>
             </Card.Body>
           </Card>
         </Col>
@@ -43,7 +43,7 @@ const Projects = () => (
               (Desktop Only) Description of the project.
               </Card.Text>
               <Button className="projButton" variant="outline-dark" href="https://jeopardy-react11.herokuapp.com/" target="_blank">Visit Site</Button>
-              <Button className="projButton" variant="outline-dark" href="#">Github</Button>
+              <Button className="projButton" variant="outline-dark" href="https://github.com/ryanjpeterson93/React-Jeopardy">Github</Button>
             </Card.Body>
           </Card>
         </Col>
