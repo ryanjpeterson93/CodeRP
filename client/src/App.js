@@ -13,21 +13,23 @@ import Contact from './components/Contact';
 import ContactedMe from './components/ContactedMe';
 import ProtectedRoute from './components/ProtectedRoute';
 import ContactForm from './components/ContactForm';
+import Landing from './components/Landing'
 
 document.body.style.backgroundColor = "#dbdbdb"
 
 const App = () => (
   <>
-    <Menu />
+    <Menu/>
     <FetchUser>
       {/* <Container fluid> */}
         <Switch>
           <ProtectedRoute exact path="/contacted-me" component={ContactedMe} />
-          <Route exact path="/" component={Home} />
+          <Route exact path="/home" component={Home} />
           <Route exact path="/login" component={Login} />
           <Route exact path="/register" component={Register} />
           <Route exact path="/about" component={AboutMe} />
           <Route exact path="/projects" component={Projects} />
+          <Route exact path="/" component={Landing} />
           <Route exact path="/contact" component={Contact} />
           <Route exact path="/contact/form" component={ContactForm} />
           <Route component={NoMatch} />
