@@ -39,3 +39,20 @@
 .homeHeader{
   
 }
+
+.navStyle {
+  margin: 0 auto;
+  width: fit-content;
+  max-width: 800px;
+  text-align: center;
+}
+
+.linkStyle{
+  color: black !important;
+  font-size: x-large;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-left: 4vw;
+}
+
+.navDiv{
+}

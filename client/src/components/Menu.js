@@ -28,27 +28,27 @@ class Menu extends React.Component {
 
   render() {
     return (
-
-        <Navbar collapseOnSelect expand="sm" bg="dark" variant="dark">
-          <Navbar.Brand href="/">
-            <img
-              src='/coderp_trans.png'
-              width="50px"
-              alt="Code RP"
-            />
-          </Navbar.Brand>
+      <div className="navDiv">
+        <Navbar className="navStyle" collapseOnSelect expand="sm">
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="mr-auto">
-              <Nav.Link href="/home">Home</Nav.Link>
-              <Nav.Link href="/about">About Me</Nav.Link>
-              <Nav.Link href="/projects">Projects</Nav.Link>
-              <Nav.Link href="/contact">Contact Me</Nav.Link>
+              <Navbar.Brand href="/">
+                <img
+                  src='/coderp_trans.png'
+                  width="50px"
+                  alt="Code RP"
+                />
+              </Navbar.Brand>
+              <Nav.Link className="linkStyle" href="/home">Home</Nav.Link>
+              <Nav.Link className="linkStyle" href="/about">About Me</Nav.Link>
+              <Nav.Link className="linkStyle" href="/projects">Projects</Nav.Link>
+              <Nav.Link className="linkStyle" href="/contact">Contact Me</Nav.Link>
               {this.rightNavItems()}
             </Nav>
           </Navbar.Collapse>
         </Navbar>
-
+      </div>
     )
   }
 }
