@@ -30,8 +30,8 @@ class Menu extends React.Component {
     return (
       <div className="navDiv">
         <Navbar className="navStyle" collapseOnSelect expand="sm">
-          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-          <Navbar.Collapse id="responsive-navbar-nav">
+          <Navbar.Toggle id="collapseButton" aria-controls="responsive-navbar-nav" />
+          <Navbar.Collapse id="collapseNav">
             <Nav className="mr-auto">
               {/* <Navbar.Brand href="/">
                 <img

@@ -1,0 +1,10 @@
+export const BelizeRuins = require('./travel/belize_ruins.JPG')
+export const CinqueTerre = require('./travel/cinque_terre.png')
+export const Coliseum = require('./travel/coliseum.jpeg')
+export const Iguanas = require('./travel/iguanas.png')
+export const ItalySquare = require('./travel/Italy_square.jpeg')
+export const PizaTower = require('./travel/piza_tower.png')
+export const ThailandMonkey = require('./travel/thailand_monkey.JPG')
+
+export const Hiking = require('../images/hiking.JPG')
+export const MeGDog = require('../images/me_g_dog.JPG')
