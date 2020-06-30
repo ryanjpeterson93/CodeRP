@@ -50,9 +50,19 @@
 .linkStyle{
   color: black !important;
   font-size: x-large;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: monospace;
   margin-left: 4vw;
 }
 
 .navDiv{
+  background-color: whitesmoke;
+}
+
+.landingDiv {
+  width: fit-content;
+  margin: 0 auto;
+  font-size: 3vh;
+  margin-top: 20vh;
+  font-family: monospace;
+  font-weight: 700;
 }

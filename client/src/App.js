@@ -14,14 +14,15 @@ import ContactedMe from './components/ContactedMe';
 import ProtectedRoute from './components/ProtectedRoute';
 import ContactForm from './components/ContactForm';
 import Landing from './components/Landing'
+import ParticlesBg from 'particles-bg'
 
-document.body.style.backgroundColor = "#dbdbdb"
+document.body.style.backgroundColor = "#f5f5f5"
 
 const App = () => (
   <>
+    <ParticlesBg color="#606060" num={50} type="cobweb" bg={true} />
     <Menu/>
     <FetchUser>
-      {/* <Container fluid> */}
         <Switch>
           <ProtectedRoute exact path="/contacted-me" component={ContactedMe} />
           <Route exact path="/home" component={Home} />
@@ -34,7 +35,6 @@ const App = () => (
           <Route exact path="/contact/form" component={ContactForm} />
           <Route component={NoMatch} />
         </Switch>
-      {/* </Container> */}
     </FetchUser>
   </>
 )

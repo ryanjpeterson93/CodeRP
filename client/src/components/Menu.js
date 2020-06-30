@@ -33,13 +33,13 @@ class Menu extends React.Component {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="mr-auto">
-              <Navbar.Brand href="/">
+              {/* <Navbar.Brand href="/">
                 <img
                   src='/coderp_trans.png'
                   width="50px"
                   alt="Code RP"
                 />
-              </Navbar.Brand>
+              </Navbar.Brand> */}
               <Nav.Link className="linkStyle" href="/home">Home</Nav.Link>
               <Nav.Link className="linkStyle" href="/about">About Me</Nav.Link>
               <Nav.Link className="linkStyle" href="/projects">Projects</Nav.Link>
