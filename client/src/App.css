@@ -28,7 +28,7 @@
   display: table;
 }
 
-#MeGDog {
+#BrigsbyMeImg {
   vertical-align: middle;
   width: 100%;
   max-width: 400px;
@@ -36,20 +36,32 @@
   float: right;
 }
 
+#HikingImg {
+  width: 100%;
+  float: left;
+  border-radius: 10px;
+}
+
+#ZionHikeImg{
+  width: 100%;
+  float: left;
+  border-radius: 10px;
+  margin-top: .5em;
+}
+
 .aboutColumn1 {
   display: table-cell;
   vertical-align: middle;
   width: 60%;
-  text-align: center;
   height: max-content;
   padding: .5em;
+  overflow: scroll;
 }
 
 .aboutColumn2 {
   display: table-cell;
   vertical-align: middle;
   width: 40%;
-  text-align: center;
   padding: .5em;
 }
 
@@ -64,25 +76,33 @@
   display: table;
 }
 
-#aboutCarColumn1 {
-  display: table-cell;
+.aboutCarColumn1 {
   vertical-align: middle;
   width: 50%;
-  text-align: center;
+  min-width: 300px;
   height: max-content;
   padding: .5em;
+  margin: 0 auto;
 }
 
-#aboutCarColumn2 {
-  display: table-cell;
-  vertical-align: middle;
-  width: 50%;
-  text-align: center;
+.aboutCarColumn2 {
+  width: 100%;
   padding: .5em;
+  max-height: 35vh;
+  overflow: scroll;
+}
 
+#aboutMilColumn1{
+  padding: 1em;
+  max-height: 35vh;
+  overflow: scroll;
 }
 
 .aboutCarImg {
+  border-radius: 10px;
+}
+
+.outdoorImg {
   border-radius: 10px;
 }
 

@@ -8,3 +8,8 @@ export const ThailandMonkey = require('./travel/thailand_monkey.JPG')
 
 export const Hiking = require('../images/hiking.JPG')
 export const MeGDog = require('../images/me_g_dog.JPG')
+export const BrigsbyMe = require('../images/Brigsby_Me.png')
+export const ZionHike = require('../images/Zion_Hike.png')
+export const WhitePine = require('../images/Camping_WhitePine.png')
+export const Kayaking = require('../images/Kayaking.png')
+export const Unicorn = require('../images/Unicorn_Hiking.png')
