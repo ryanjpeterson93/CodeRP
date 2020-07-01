@@ -1,3 +1,7 @@
+.App {
+  font-family: "Courier New", Courier, monospace;
+}
+
 .formHeader {
   text-align: center;
 }
@@ -5,10 +9,12 @@
 .contactForm {
   width: 90%;
   margin: 0 auto;
-  background-color: whitesmoke;
+  background-color: white;
   padding: 3vh;
   max-width: 500px;
   margin-top: 5%;
+  border-radius: 5px;
+  box-shadow: 2px 2px lightgray;
 }
 
 .aboutDiv {
@@ -36,6 +42,7 @@
   width: 60%;
   text-align: center;
   height: max-content;
+  padding: .5em;
 }
 
 .aboutColumn2 {
@@ -43,6 +50,7 @@
   vertical-align: middle;
   width: 40%;
   text-align: center;
+  padding: .5em;
 }
 
 #aboutDivCarousel{
@@ -62,6 +70,7 @@
   width: 50%;
   text-align: center;
   height: max-content;
+  padding: .5em;
 }
 
 #aboutCarColumn2 {
@@ -69,6 +78,8 @@
   vertical-align: middle;
   width: 50%;
   text-align: center;
+  padding: .5em;
+
 }
 
 .aboutCarImg {
@@ -94,29 +105,27 @@
 
 .navStyle {
   margin: 0 auto;
-  width: 90%;
-  max-width: 1000px;
-  text-align: left;
+  text-align: center;
 }
 
 .linkStyle{
   color: black !important;
   font-size: x-large;
-  font-family: monospace;
+  font-family: monospace !important;
   margin-left: 7vw;
   background-color: whitesmoke;
   width: fit-content;
 }
 
 .navDiv{
-  /* background-color: whitesmoke; */
+  /* width: 100%; */
 }
 
 .landingDiv {
   width: fit-content;
   margin: 0 auto;
   font-size: 3vh;
-  margin-top: 20vh;
-  font-family: monospace;
+  margin-top: 40vh;
+  font-family: monospace !important;
   font-weight: 700;
 }

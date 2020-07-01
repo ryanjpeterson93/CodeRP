@@ -19,8 +19,8 @@ import ParticlesBg from 'particles-bg'
 document.body.style.backgroundColor = "#f5f5f5"
 
 const App = () => (
-  <>
-    <ParticlesBg color="#606060" num={50} type="cobweb" bg={true} />
+  <div className="App">
+    <ParticlesBg color="#606060" num={60} type="cobweb" bg={true} />
     <Menu/>
     <FetchUser>
         <Switch>
@@ -36,7 +36,7 @@ const App = () => (
           <Route component={NoMatch} />
         </Switch>
     </FetchUser>
-  </>
+  </div>
 )
 
 export default App;

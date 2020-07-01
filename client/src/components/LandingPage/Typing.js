@@ -5,7 +5,8 @@ const steps = [
   'Hey', 2000,
   "I'm Ryan", 2000,
   "I'm a developer", 3000,
-  'Take a look at my site.', 8000
+  'This is my site', 2000,
+  'Take a look', 7000
 ];
 
 export default class Typing extends React.Component {
