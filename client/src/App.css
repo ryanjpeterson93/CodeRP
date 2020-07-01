@@ -88,8 +88,6 @@
 .aboutCarColumn2 {
   width: 100%;
   padding: .5em;
-  max-height: 35vh;
-  overflow: scroll;
 }
 
 #aboutMilColumn1{
@@ -148,4 +146,28 @@
   margin-top: 40vh;
   font-family: monospace !important;
   font-weight: 700;
+}
+
+#contactDiv{
+  width: 95%;
+  height: fit-content;
+  background-color: white;
+  padding: 1em;
+  border-radius: 20px;
+  margin: 0 auto;
+}
+
+#contactInfo {
+
+}
+
+#socialLinks{
+  width: fit-content;
+  min-width: 200px;
+  margin: 0 auto;
+}
+
+.mediaIcons {
+  width: 40px;
+  margin-left: 2vw;
 }

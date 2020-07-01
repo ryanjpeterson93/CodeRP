@@ -14,7 +14,7 @@ const AboutMe = () => (
       </div>
       <div className="aboutColumn2">
         <div className="aboutImg">
-          <img src={BrigsbyMe} id="BrigsbyMeImg" />
+          <img src={BrigsbyMe} alt="Brigsby and Me" id="BrigsbyMeImg" />
         </div>
       </div>
     </div>
