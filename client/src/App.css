@@ -36,19 +36,6 @@
   float: right;
 }
 
-#HikingImg {
-  width: 100%;
-  float: left;
-  border-radius: 10px;
-}
-
-#ZionHikeImg{
-  width: 100%;
-  float: left;
-  border-radius: 10px;
-  margin-top: .5em;
-}
-
 .aboutColumn1 {
   display: table-cell;
   vertical-align: middle;
@@ -111,6 +98,14 @@
 
 .projButton {
   margin: 0 2%;
+}
+
+#projHeader{
+  background-color: white;
+  width: 95vw;
+  padding: 1em;
+  margin: 0 auto;
+  border-radius: 20px;
 }
 
 .homeHeader{

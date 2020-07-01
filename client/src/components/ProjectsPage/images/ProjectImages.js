@@ -1,2 +1,6 @@
 export const HomeInv = require('./home_inv.png')
 export const ReactJeo = require('./react_jeo.png')
+export const InvMovie = require('./HomeInventoryMovie.mp4')
+export const CardViews = require('./Card_Views.png')
+export const EduStation = require('./Edu_Station.png')
+export const CodeRPSite = require('./CodeRPSite.png')
