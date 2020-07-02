@@ -25,8 +25,7 @@ const Projects = () => (
                 >
                 </Card.Img>
                 <Card.Text>
-                (Desktop / Mobile)
-                Description of the project.
+                (Desktop)
                 </Card.Text>
                 <Button className="projButton" variant="outline-dark" href="https://home-inventory-2020.herokuapp.com/" target="_blank">Visit Site</Button>
                 <Button className="projButton" variant="outline-dark" href="https://github.com/ryanjpeterson93/My-Home-Inventory">Github</Button>
@@ -43,8 +42,7 @@ const Projects = () => (
                   alt="Image Not Found"
                 />
                 <Card.Text>
-                (Desktop / Mobile)
-                Description of the project.
+                (Desktop)
                 </Card.Text>
                 <Button className="projButton" variant="outline-dark" href="https://jeopardy-react11.herokuapp.com/" target="_blank">Visit Site</Button>
                 <Button className="projButton" variant="outline-dark" href="https://github.com/ryanjpeterson93/React-Jeopardy">Github</Button>
@@ -62,7 +60,6 @@ const Projects = () => (
                 />
                 <Card.Text>
                 (Desktop / Mobile)
-                Description of the project.
                 </Card.Text>
                 <Button className="projButton" variant="outline-dark" href="https://github.com/ryanjpeterson93/Education-Station">Github</Button>
               </Card.Body>
@@ -79,7 +76,6 @@ const Projects = () => (
                 />
                 <Card.Text>
                 (Desktop / Mobile)
-                Description of the project.
                 </Card.Text>
                 <Button className="projButton" variant="outline-dark" href="https://github.com/ryanjpeterson93/Card-Views">Github</Button>
               </Card.Body>
@@ -96,7 +92,6 @@ const Projects = () => (
                 />
                 <Card.Text>
                 (Desktop / Mobile)
-                Description of the project.
                 </Card.Text>
                 <Button className="projButton" variant="outline-dark" href="https://github.com/ryanjpeterson93/CodeRP">Github</Button>
               </Card.Body>
