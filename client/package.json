@@ -24,8 +24,9 @@
   "proxy": "http://localhost:3001",
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "cp -a client/build/. public/",
     "test": "react-scripts test",
+    "heroku-postbuild": "npm run build && npm run deploy && echo 'Client Built'",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
