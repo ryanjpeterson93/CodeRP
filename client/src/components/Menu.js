@@ -39,6 +39,22 @@ class Menu extends React.Component {
               <Nav.Link className="linkStyle" href="/contact">Contact Me</Nav.Link>
               {this.rightNavItems()}
             </Nav>
+            <Nav>
+              <div id="socialLinks">
+                <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/ryan.peterson.9678">
+                  <img src="/Facebook.png" alt="Facebook" className="mediaMenuIcons" />
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://github.com/ryanjpeterson93">
+                  <img src="/LinkedIn.png" alt="Github" className="mediaMenuIcons" />
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/rj.pete/?hl=en">
+                  <img src="/Github.png" alt="Instagram" className="mediaMenuIcons" />
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/ryanpeterson93/">
+                  <img src="/Instagram.png" alt="LinkedIn" className="mediaMenuIcons" />
+                </a>
+              </div>
+            </Nav>
           </Navbar.Collapse>
         </Navbar>
       </div>

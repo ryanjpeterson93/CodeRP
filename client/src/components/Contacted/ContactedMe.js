@@ -1,20 +1,43 @@
-import React from 'react'
-import Jumbotron from 'react-bootstrap/Jumbotron'
-import Container from 'react-bootstrap/Container'
+import React from "react"
+import axios from 'axios'
+import { Card, Button} from 'react-bootstrap'
 
 class ContactedMe extends React.Component {
+  state = { contacts: [] };
+
+  componentDidMount() {
+    axios.get("/api/contacts")
+      .then(res => {
+        this.setState({ contacts: res.data })
+      })
+  }
+
+  deletePost = (id) => {
+    axios.delete(`/api/contacts/${id}`)
+      .then( res => {
+        const { contacts } = this.state;
+        this.setState({ contacts: contacts.filter(t => t.id !== id), })
+      })
+  }
+
   render() {
-    return (
-      <Jumbotron fluid>
-        <Container>
-          <h1>I will be able to view who shot me a message here</h1>
-          <p>
-            Build out the models and controllers
-          </p>
-        </Container>
-      </Jumbotron>
+    const { contacts } = this.state
+    return contacts.map(contact =>
+      <div className="submitted">
+        <Card key={contact.id} style={{ width: '350px', margin: '1%', float: 'left' }}>
+          <Card.Body>
+            <Card.Title>{contact.name}</Card.Title>
+            <Card.Subtitle className="mb-2 text-muted">Phone: {contact.phone}</Card.Subtitle>
+            <Card.Subtitle className="mb-2 text-muted">Email: {contact.email}</Card.Subtitle>
+            <Card.Subtitle className="mb-2 text-muted"> {contact.created_at} </Card.Subtitle>
+            <Card.Text>
+              {contact.body}
+            </Card.Text>
+            <Button onClick={() => this.deletePost(contact.id)}>Delete</Button>
+          </Card.Body>
+        </Card>
+      </div>
     )
   }
 }
-
 export default ContactedMe

@@ -33,6 +33,6 @@ private
   end
 
   def set_contact
-    @contact = contacts.find(params[:id])
+    @contact = Contact.find(params[:id])
   end
 end
