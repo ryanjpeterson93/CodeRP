@@ -31,7 +31,7 @@
 #BrigsbyMeImg {
   vertical-align: middle;
   width: 100%;
-  max-width: 400px;
+  max-width: 300px;
   border-radius: 10px;
   float: right;
 }
@@ -113,8 +113,43 @@
   border-radius: 20px;
 }
 
-.homeHeader{
-  
+#homeHeader{
+  width: 95vw;
+  background-color: white;
+  padding: 1em;
+  margin: 0 auto 2vh auto;
+  border-radius: 20px;
+  display: table;
+}
+
+#homeCol2{
+  display: table-cell;
+  width: 50%;
+  vertical-align: middle;
+}
+
+#homeCol1{
+  display: table-cell;
+  width: 50%;
+  vertical-align: middle;
+}
+
+#homeHeaderImg{
+  max-width: 300px;
+  float: right;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.homeDiv{
+  width: 95vw;
+  background-color: white;
+  padding: 1em;
+  margin: 0 auto;
+  border-radius: 20px;
+  margin: 0 auto 2vh auto;
+  max-height: 45vh;
+  overflow: scroll;
 }
 
 #collapseButton{
