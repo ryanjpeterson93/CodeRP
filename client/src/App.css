@@ -83,6 +83,11 @@
   overflow: scroll;
 }
 
+#cardDiv{
+  width: 95vw;
+  margin: 0 auto;
+}
+
 .aboutCarImg {
   border-radius: 10px;
 }
@@ -149,7 +154,7 @@
   background-color: white;
   padding: 1em;
   border-radius: 20px;
-  margin: 0 auto;
+  margin: 5vh auto;
 }
 
 #contactInfo {
@@ -165,4 +170,22 @@
 .mediaIcons {
   width: 40px;
   margin-left: 2vw;
+}
+
+#noMatch{
+  background-color: white;
+  width: fit-content;
+  margin: 20vh auto;
+  padding: 1em;
+  border-radius: 20px;
+}
+
+#resumePage {
+  width: 95vw;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+#resume {
+  width: 100%;
 }

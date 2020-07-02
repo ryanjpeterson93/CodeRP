@@ -1,6 +1,5 @@
 import React from 'react';
 import { Switch, Route } from "react-router-dom";
-// import Container from "react-bootstrap/Container"
 import Home from "./components/HomePage/Home";
 import NoMatch from "./components/NoMatch";
 import Login from "./LoginandRegister/Login";
@@ -15,6 +14,7 @@ import ProtectedRoute from './components/ProtectedRoute';
 import ContactForm from './components/Contacted/ContactForm';
 import Landing from './components/LandingPage/Landing'
 import ParticlesBg from 'particles-bg'
+import Resume from './components/Resume';
 
 document.body.style.backgroundColor = "#f5f5f5"
 
@@ -31,6 +31,7 @@ const App = () => (
           <Route exact path="/about" component={AboutMe} />
           <Route exact path="/projects" component={Projects} />
           <Route exact path="/" component={Landing} />
+          <Route exact path="/resume" component={Resume} />
           <Route exact path="/contact" component={Contact} />
           <Route exact path="/contact/form" component={ContactForm} />
           <Route component={NoMatch} />

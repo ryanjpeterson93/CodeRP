@@ -16,7 +16,7 @@ function TravelCarousel() {
         <img
           className="d-block w-100 aboutCarImg"
           src={BelizeRuins}
-          alt="no picture"
+          alt="nothing to see here"
         />
         <Carousel.Caption>
           {/* <p>Information about a thing</p> */}
@@ -27,7 +27,7 @@ function TravelCarousel() {
         <img
           className="d-block w-100 aboutCarImg"
           src={CinqueTerre}
-          alt="no picture"
+          alt="nothing to see here"
         />
         <Carousel.Caption>
           {/* <p>Information about a thing</p> */}
@@ -38,7 +38,7 @@ function TravelCarousel() {
         <img
           className="d-block w-100 aboutCarImg"
           src={ThailandMonkey}
-          alt="no picture"
+          alt="nothing to see here"
         />
         <Carousel.Caption>
           {/* <p>Information about a thing</p> */}
@@ -49,7 +49,7 @@ function TravelCarousel() {
         <img
           className="d-block w-100 aboutCarImg"
           src={Coliseum}
-          alt="no picture"
+          alt="nothing to see here"
         />
         <Carousel.Caption>
           {/* <p>Information about a thing</p> */}
@@ -60,7 +60,7 @@ function TravelCarousel() {
         <img
           className="d-block w-100 aboutCarImg"
           src={ItalySquare}
-          alt="no picture"
+          alt="nothing to see here"
         />
         <Carousel.Caption>
           {/* <p>Information about a thing</p> */}
@@ -71,7 +71,7 @@ function TravelCarousel() {
         <img
           className="d-block w-100 aboutCarImg"
           src={PizaTower}
-          alt="no picture"
+          alt="nothing to see here"
         />
         <Carousel.Caption>
           {/* <p>Information about a thing</p> */}
@@ -82,7 +82,7 @@ function TravelCarousel() {
         <img
           className="d-block w-100 aboutCarImg"
           src={Iguanas}
-          alt="no picture"
+          alt="nothing to see here"
         />
         <Carousel.Caption>
           {/* <p>Information about a thing</p> */}

@@ -15,7 +15,7 @@ function OutdoorCarousel() {
         <img
           className="d-block w-100 outdoorImg"
           src={Unicorn}
-          alt="no picture"
+          alt="nothing to see here"
         />
         <Carousel.Caption>
           {/* <p>Information about a thing</p> */}
@@ -26,7 +26,7 @@ function OutdoorCarousel() {
         <img
           className="d-block w-100 outdoorImg"
           src={Kayaking}
-          alt="no picture"
+          alt="nothing to see here"
         />
         <Carousel.Caption>
           {/* <p>Information about a thing</p> */}
@@ -37,7 +37,7 @@ function OutdoorCarousel() {
         <img
           className="d-block w-100 outdoorImg"
           src={WhitePine}
-          alt="no picture"
+          alt="nothing to see here"
         />
         <Carousel.Caption>
           {/* <p>Information about a thing</p> */}
@@ -48,7 +48,7 @@ function OutdoorCarousel() {
         <img
           className="d-block w-100 outdoorImg"
           src={Hiking}
-          alt="no picture"
+          alt="nothing to see here"
         />
         <Carousel.Caption>
           {/* <p>Information about a thing</p> */}
@@ -59,7 +59,7 @@ function OutdoorCarousel() {
         <img
           className="d-block w-100 outdoorImg"
           src={ZionHike}
-          alt="no picture"
+          alt="nothing to see here"
         />
         <Carousel.Caption>
           {/* <p>Information about a thing</p> */}

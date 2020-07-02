@@ -18,16 +18,16 @@ class Contact extends React.Component {
             <p>Or get ahold of me <Link to="/contact/form"> here.</Link></p>
           </div>
           <div id="socialLinks">
-            <a target="_blank" href="https://www.facebook.com/ryan.peterson.9678">
+            <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/ryan.peterson.9678">
               <img src={Facebook} alt="Facebook" className="mediaIcons" />
             </a>
-            <a target="_blank" href="https://github.com/ryanjpeterson93">
+            <a target="_blank" rel="noopener noreferrer" href="https://github.com/ryanjpeterson93">
               <img src={Github} alt="Github" className="mediaIcons" />
             </a>
-            <a target="_blank" href="https://www.instagram.com/rj.pete/?hl=en">
+            <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/rj.pete/?hl=en">
               <img src={Instagram} alt="Instagram" className="mediaIcons" />
             </a>
-            <a target="_blank" href="https://www.linkedin.com/in/ryanpeterson93/">
+            <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/ryanpeterson93/">
               <img src={LinkedIn} alt="LinkedIn" className="mediaIcons" />
             </a>
           </div>
