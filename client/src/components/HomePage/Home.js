@@ -25,7 +25,7 @@ const Home = () => (
       <h4> What I Know </h4>
       <p> To put it frankly, what I don't know far outweighs what I do know...at least in the world of web development, coding, software engineering (whatever you want to call it). I know that. I try not to make myself out to be anything than I know that I am, a fresh developer with a whole lot to learn. </p>
       <br />
-      <p> I am working every day to further my skills and progress in my knowledge. So, if you don't like what you see on the site right now, check back in a while and see what kind of progress I have made. </p>
+      {/* <p> I am working every day to further my skills and progress in my knowledge. So, if you don't like what you see on the site right now, check back in a while and see what kind of progress I have made. </p> */}
     </div>
     <div className="homeDiv">
       <p> I figure if you are on this site, there is a good chance you have already seen my resume. If not, you can take a look at that <Link to="/resume">here</Link>. Otherwise, take a look around the site and get to know me a bit. Please feel free to contact me with anything.</p>
