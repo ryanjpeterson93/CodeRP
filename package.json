@@ -28,5 +28,8 @@
   "bugs": {
     "url": "https://github.com/ryanjpeterson93/CodeRP/issues"
   },
-  "homepage": "https://github.com/ryanjpeterson93/CodeRP#readme"
+  "homepage": "https://github.com/ryanjpeterson93/CodeRP#readme",
+  "dependencies": {
+    "react-scripts": "^3.4.1"
+  }
 }
